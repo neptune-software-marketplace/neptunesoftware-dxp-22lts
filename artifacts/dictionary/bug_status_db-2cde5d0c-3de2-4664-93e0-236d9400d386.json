@@ -6,7 +6,7 @@
 		{
 			"id": "55b5d0af-5cc9-4348-9287-ff7159c753cb",
 			"fieldName": "STATUS_ID",
-			"fieldType": "text",
+			"fieldType": "mediumtext",
 			"isNullable": true,
 			"isUnique": true
 		},
@@ -26,8 +26,8 @@
 	"indices": [],
 	"foreignKeys": [],
 	"name": "bug_status_db",
-	"description": null,
-	"ver": "22.10.11.1239",
+	"description": "Issue status",
+	"ver": "22.10.11.1750",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",
