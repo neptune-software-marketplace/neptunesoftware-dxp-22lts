@@ -5,14 +5,16 @@
 	"fields": [
 		{
 			"id": "7fe7cf48-7462-48ba-fe13-c54445cbf2a8",
-			"fieldName": "STATUS_ID",
-			"fieldType": "text",
-			"isUnique": true
+			"fieldName": "STATUS_CODE",
+			"fieldType": "mediumtext",
+			"isUnique": true,
+			"isNullable": true
 		},
 		{
 			"id": "24724f99-43aa-4d13-a27f-f266272b2295",
 			"fieldName": "STATUS",
-			"fieldType": "text"
+			"fieldType": "text",
+			"isNullable": true
 		},
 		{
 			"id": "3330b513-c85c-4999-8233-063042a06c82",
@@ -25,7 +27,7 @@
 	"foreignKeys": [],
 	"name": "github_issue_status",
 	"description": "Github issue status",
-	"ver": "22.10.11.1329",
+	"ver": "22.10.11.2229",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",

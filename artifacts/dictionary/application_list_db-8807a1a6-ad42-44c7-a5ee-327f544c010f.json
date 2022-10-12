@@ -13,7 +13,7 @@
 		{
 			"id": "7a4d82fa-7ec1-4a91-eefe-1009f2b8fdab",
 			"fieldName": "APP_ID",
-			"fieldType": "text",
+			"fieldType": "mediumtext",
 			"isNullable": true,
 			"isUnique": true
 		}
@@ -22,7 +22,7 @@
 	"foreignKeys": [],
 	"name": "application_list_db",
 	"description": "List of applications in SAP and Open Edition",
-	"ver": "22.10.10.2327",
+	"ver": "22.10.12.1020",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",

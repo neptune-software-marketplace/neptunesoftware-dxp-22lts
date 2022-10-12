@@ -4,7 +4,7 @@
 	"createdBy": "testcafe",
 	"git": {
 		"targetServers": [],
-		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-22lts",
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-22lts.git",
 		"testServers": [],
 		"packageJSON": [
 			"==OBJECT STRING==",
@@ -36,7 +36,7 @@
 	},
 	"name": "22-LTS Test",
 	"description": null,
-	"ver": "22.10.11.1121",
+	"ver": "22.10.11.1959",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -71,17 +71,17 @@
 		{
 			"id": "2cde5d0c-3de2-4664-93e0-236d9400d386",
 			"name": "bug_status_db",
+			"description": "Issue status"
+		},
+		{
+			"id": "80baa81e-f95e-4fdd-94c8-0fda01803e60",
+			"name": "neptune_dxp_version",
 			"description": null
 		},
 		{
 			"id": "8807a1a6-ad42-44c7-a5ee-327f544c010f",
 			"name": "application_list_db",
 			"description": "List of applications in SAP and Open Edition"
-		},
-		{
-			"id": "80baa81e-f95e-4fdd-94c8-0fda01803e60",
-			"name": "neptune_dxp_version",
-			"description": null
 		},
 		{
 			"id": "2eb4ba05-00a6-477d-8348-415f8464c21a",
@@ -102,6 +102,11 @@
 			"id": "3922a9fb-ac87-4553-9237-d5606812f993",
 			"name": "github_issue_status",
 			"description": "Github issue status"
+		},
+		{
+			"id": "12d276e2-f900-4d42-b688-e9a56e7a990b",
+			"name": "qa_team_db",
+			"description": null
 		},
 		{
 			"id": "b18c2902-b320-46e5-9dd8-dacaecddcf1a",
@@ -126,11 +131,6 @@
 		{
 			"id": "88c77b4a-0e86-4682-bd16-aad129a5db10",
 			"name": "new_features_db",
-			"description": null
-		},
-		{
-			"id": "12d276e2-f900-4d42-b688-e9a56e7a990b",
-			"name": "qa_team_db",
 			"description": null
 		}
 	],

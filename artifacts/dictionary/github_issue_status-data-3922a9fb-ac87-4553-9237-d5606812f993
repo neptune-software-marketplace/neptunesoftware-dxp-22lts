@@ -5,7 +5,7 @@
 		"updatedAt": "1665143918712",
 		"createdBy": "rommel",
 		"updatedBy": "rommel",
-		"STATUS_ID": "5",
+		"STATUS_CODE": "5",
 		"STATUS": "Cancelled",
 		"DESCRIPTION": "The fix no longer applicable or has new behavior"
 	},
@@ -15,7 +15,7 @@
 		"updatedAt": "1665143918712",
 		"createdBy": "testcafe",
 		"updatedBy": "rommel",
-		"STATUS_ID": "1",
+		"STATUS_CODE": "1",
 		"STATUS": "Passed",
 		"DESCRIPTION": "Meets the criteria or the expected result"
 	},
@@ -25,7 +25,7 @@
 		"updatedAt": "1665143918712",
 		"createdBy": "testcafe",
 		"updatedBy": "rommel",
-		"STATUS_ID": "2",
+		"STATUS_CODE": "2",
 		"STATUS": "Failed",
 		"DESCRIPTION": "Does not meet the criteria or the expected result"
 	},
@@ -35,7 +35,7 @@
 		"updatedAt": "1665143918712",
 		"createdBy": "testcafe",
 		"updatedBy": "rommel",
-		"STATUS_ID": "3",
+		"STATUS_CODE": "3",
 		"STATUS": "Waiting for Verification",
 		"DESCRIPTION": "Ready to be tested and verified"
 	},
@@ -45,7 +45,7 @@
 		"updatedAt": "1665143918712",
 		"createdBy": "rommel",
 		"updatedBy": "rommel",
-		"STATUS_ID": "4",
+		"STATUS_CODE": "4",
 		"STATUS": "Waiting for Re-Build",
 		"DESCRIPTION": "Waiting for the test system to be upgraded"
 	}

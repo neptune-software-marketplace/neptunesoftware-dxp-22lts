@@ -6,7 +6,7 @@
 		{
 			"id": "d7c16c9c-a6df-4a07-e80e-f92167157352",
 			"fieldName": "TESTER_ID",
-			"fieldType": "text",
+			"fieldType": "mediumtext",
 			"isUnique": true,
 			"isNullable": true
 		},
@@ -33,7 +33,7 @@
 	"foreignKeys": [],
 	"name": "qa_team_db",
 	"description": null,
-	"ver": "22.10.10.2253",
+	"ver": "22.10.11.2234",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",

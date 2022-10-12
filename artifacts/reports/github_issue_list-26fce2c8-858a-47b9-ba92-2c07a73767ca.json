@@ -183,9 +183,10 @@
 				"fieldPos": 2,
 				"type": "MultiSelectLookup",
 				"lookupTable": "github_issue_status",
-				"lookupFieldKey": "STATUS_ID",
+				"lookupFieldKey": "STATUS_CODE",
 				"lookupFieldText": "STATUS",
-				"lookupShowOnlyText": true
+				"lookupShowOnlyText": true,
+				"lookupFieldAdditional": "DESCRIPTION"
 			},
 			{
 				"visible": true,
@@ -256,7 +257,7 @@
 					"textField": "STATUS",
 					"keyField": [
 						{
-							"fieldName": "STATUS_ID",
+							"fieldName": "STATUS_CODE",
 							"key": "VERIFICATION_STATUS",
 							"value": ""
 						}
@@ -347,7 +348,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.6.1926",
+	"ver": "22.10.12.823",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
