@@ -94,6 +94,7 @@
 			"data": []
 		}
 	],
+	"componentInterface": null,
 	"ver": "22.6.7.156",
 	"application": "test_plan_open_edition",
 	"title": "Neptune DXP — Test Plan",

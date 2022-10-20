@@ -66,6 +66,12 @@
 	"roles": [],
 	"tiles": [
 		{
+			"id": "e00540f6-b2d6-4603-91e7-1d996f424a2b",
+			"name": "22-LTS Test — Bug Tracker (SAP Edition)",
+			"title": "Bug Tracker (SAP Edition)",
+			"ver": "22.6.9.1820"
+		},
+		{
 			"id": "8dea3356-1b80-4920-8ad7-9009d9a0252c",
 			"name": "22-LTS Test — Test System (SAP Edition)",
 			"title": "Test System (SAP Edition)",
@@ -78,22 +84,16 @@
 			"ver": "22.6.9.1816"
 		},
 		{
-			"id": "e00540f6-b2d6-4603-91e7-1d996f424a2b",
-			"name": "22-LTS Test — Bug Tracker (SAP Edition)",
-			"title": "Bug Tracker (SAP Edition)",
-			"ver": "22.6.9.1820"
+			"id": "66d03933-d984-4725-b3c7-5300e4e4d42c",
+			"name": "22-LTS Test — Test Matrix - SAP Edition",
+			"title": "Test Matrix (Mobile Client) - SAP Edition",
+			"ver": "22.6.8.847"
 		},
 		{
 			"id": "43563071-6bd0-4811-b68f-7dbeee38a544",
 			"name": "22-LTS Test — Test System (Open Edition)",
 			"title": "Test System (Open Edition)",
 			"ver": "22.10.3.954"
-		},
-		{
-			"id": "66d03933-d984-4725-b3c7-5300e4e4d42c",
-			"name": "22-LTS Test — Test Matrix - SAP Edition",
-			"title": "Test Matrix (Mobile Client) - SAP Edition",
-			"ver": "22.6.8.847"
 		}
 	],
 	"tilegroups": []

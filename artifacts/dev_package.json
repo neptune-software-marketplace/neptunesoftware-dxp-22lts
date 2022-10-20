@@ -40,10 +40,10 @@
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "17b62886-26a9-430e-8c0e-c0fcacea1dcd",
-			"application": "cc_signaturepad_rommel",
-			"title": "UTIL",
-			"description": "Signature Pad"
+			"id": "b9af86b6-67e3-47ef-89c9-df8cf9011ab2",
+			"application": "test_plan_open_edition",
+			"title": "Neptune DXP — Test Plan",
+			"description": ""
 		},
 		{
 			"id": "b462d508-0c77-4391-84c4-c9d4f073b763",
@@ -58,10 +58,10 @@
 			"description": ""
 		},
 		{
-			"id": "b9af86b6-67e3-47ef-89c9-df8cf9011ab2",
-			"application": "test_plan_open_edition",
-			"title": "Neptune DXP — Test Plan",
-			"description": ""
+			"id": "17b62886-26a9-430e-8c0e-c0fcacea1dcd",
+			"application": "cc_signaturepad_rommel",
+			"title": "UTIL",
+			"description": "Signature Pad"
 		}
 	],
 	"api": [],
@@ -69,43 +69,13 @@
 	"odataMock": [],
 	"dictionary": [
 		{
-			"id": "2cde5d0c-3de2-4664-93e0-236d9400d386",
-			"name": "bug_status_db",
-			"description": "Issue status"
-		},
-		{
-			"id": "80baa81e-f95e-4fdd-94c8-0fda01803e60",
-			"name": "neptune_dxp_version",
-			"description": null
-		},
-		{
-			"id": "8807a1a6-ad42-44c7-a5ee-327f544c010f",
-			"name": "application_list_db",
-			"description": "List of applications in SAP and Open Edition"
-		},
-		{
 			"id": "ea88a5fa-a00d-45e9-90a5-2fb1047be448",
 			"name": "bug_reports_db",
 			"description": "List of reported issues from Neptune DXP Open and SAP Editions"
 		},
 		{
-			"id": "3922a9fb-ac87-4553-9237-d5606812f993",
-			"name": "github_issue_status",
-			"description": "Github issue status"
-		},
-		{
-			"id": "12d276e2-f900-4d42-b688-e9a56e7a990b",
-			"name": "qa_team_db",
-			"description": null
-		},
-		{
-			"id": "52215b74-1426-48ec-aa65-5a149c928ef5",
-			"name": "github_issues_db_copy",
-			"description": "List of fixed issues that require re-verification"
-		},
-		{
-			"id": "88c77b4a-0e86-4682-bd16-aad129a5db10",
-			"name": "new_features_db",
+			"id": "b18c2902-b320-46e5-9dd8-dacaecddcf1a",
+			"name": "issue_type_db",
 			"description": null
 		},
 		{
@@ -114,14 +84,34 @@
 			"description": null
 		},
 		{
-			"id": "b18c2902-b320-46e5-9dd8-dacaecddcf1a",
-			"name": "issue_type_db",
+			"id": "88c77b4a-0e86-4682-bd16-aad129a5db10",
+			"name": "new_features_db",
 			"description": null
 		},
 		{
-			"id": "14c2dc86-1e3b-4958-bf4c-557142412929",
-			"name": "github_issues_db",
+			"id": "8807a1a6-ad42-44c7-a5ee-327f544c010f",
+			"name": "application_list_db",
+			"description": "List of applications in SAP and Open Edition"
+		},
+		{
+			"id": "80baa81e-f95e-4fdd-94c8-0fda01803e60",
+			"name": "neptune_dxp_version",
+			"description": null
+		},
+		{
+			"id": "74256354-1067-4702-842b-18d59c8a6708",
+			"name": "feature_testing_db",
+			"description": null
+		},
+		{
+			"id": "52215b74-1426-48ec-aa65-5a149c928ef5",
+			"name": "github_issues_db_copy",
 			"description": "List of fixed issues that require re-verification"
+		},
+		{
+			"id": "3922a9fb-ac87-4553-9237-d5606812f993",
+			"name": "github_issue_status",
+			"description": "Github issue status"
 		},
 		{
 			"id": "2eb4ba05-00a6-477d-8348-415f8464c21a",
@@ -129,20 +119,30 @@
 			"description": null
 		},
 		{
-			"id": "74256354-1067-4702-842b-18d59c8a6708",
-			"name": "feature_testing_db",
+			"id": "2cde5d0c-3de2-4664-93e0-236d9400d386",
+			"name": "bug_status_db",
+			"description": "Issue status"
+		},
+		{
+			"id": "14c2dc86-1e3b-4958-bf4c-557142412929",
+			"name": "github_issues_db",
+			"description": "List of fixed issues that require re-verification"
+		},
+		{
+			"id": "12d276e2-f900-4d42-b688-e9a56e7a990b",
+			"name": "qa_team_db",
 			"description": null
 		}
 	],
 	"jsclass": [
 		{
-			"id": "38821e6a-a33d-4a99-915d-c7825ec47d59",
-			"name": "generateID",
+			"id": "d44c91ff-9837-4f51-b932-f92ccfab4d25",
+			"name": "generateUUID",
 			"description": null
 		},
 		{
-			"id": "d44c91ff-9837-4f51-b932-f92ccfab4d25",
-			"name": "generateUUID",
+			"id": "38821e6a-a33d-4a99-915d-c7825ec47d59",
+			"name": "generateID",
 			"description": null
 		}
 	],
@@ -157,11 +157,6 @@
 	"pdf": [],
 	"rulesengine": [
 		{
-			"id": "007d88d5-8824-485c-a1af-1bec8e0cd601",
-			"name": "Feature Test Result",
-			"description": ""
-		},
-		{
 			"id": "d76ad90d-0754-43a1-81d6-f807602e6c56",
 			"name": "Bug Status",
 			"description": ""
@@ -175,84 +170,17 @@
 			"id": "0cadc3e3-2172-4d22-b3cc-5e8d3781bd39",
 			"name": "Execution Status",
 			"description": ""
+		},
+		{
+			"id": "007d88d5-8824-485c-a1af-1bec8e0cd601",
+			"name": "Feature Test Result",
+			"description": ""
 		}
 	],
 	"reports": [
 		{
-			"id": "e0d84c95-6925-4dc0-8cc6-4dbe1247bf3d",
-			"name": "github_issue_list_rommel",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "11cf098f-4a14-4c4f-949c-9888959455ef",
-			"name": "feature_testing_list_rommel",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "cf526867-61da-42f0-a7c8-7c52fe3af360",
-			"name": "feature_testing_edit_rommel",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "9ae5b123-eceb-4ad5-b6a7-bc56ef41977c",
-			"name": "github_issue_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
 			"id": "f2a6bbb0-5511-4ba7-901f-f548d88c04b4",
 			"name": "feature_testing_list_COPY",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "58dc842d-a092-453e-a325-118ba6f8049d",
-			"name": "cockpit_apps_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "90679d6c-6c7d-4cbd-93a5-c74b686c2590",
-			"name": "qa_team_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "96bea92d-4ccc-4003-846b-53b501db8e20",
-			"name": "qa_team_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "6ffbed34-c06a-4b00-80a5-8647275aaaac",
-			"name": "cockpit_apps_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "a6fd34cc-d9b3-416d-8d1b-bb8670561b45",
-			"name": "github_issue_edit_rommel",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "26fce2c8-858a-47b9-ba92-2c07a73767ca",
-			"name": "github_issue_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "95c2a11b-bf00-4dc4-b2a6-7a549f1c9ed7",
-			"name": "dxp_application_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "d618f737-b50c-4540-a078-754a5ae91e5e",
-			"name": "dxp_applications_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
 		},
@@ -269,8 +197,20 @@
 			"application": "planet9_adaptive_list"
 		},
 		{
-			"id": "0335f954-1b21-4e28-b82d-e311a54cc3b1",
-			"name": "feature_testing_edit",
+			"id": "e0d84c95-6925-4dc0-8cc6-4dbe1247bf3d",
+			"name": "github_issue_list_rommel",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "d618f737-b50c-4540-a078-754a5ae91e5e",
+			"name": "dxp_applications_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "cf526867-61da-42f0-a7c8-7c52fe3af360",
+			"name": "feature_testing_edit_rommel",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
@@ -287,34 +227,79 @@
 			"application": "planet9_adaptive_list"
 		},
 		{
+			"id": "a6fd34cc-d9b3-416d-8d1b-bb8670561b45",
+			"name": "github_issue_edit_rommel",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "9ae5b123-eceb-4ad5-b6a7-bc56ef41977c",
+			"name": "github_issue_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "96bea92d-4ccc-4003-846b-53b501db8e20",
+			"name": "qa_team_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "95c2a11b-bf00-4dc4-b2a6-7a549f1c9ed7",
+			"name": "dxp_application_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "90679d6c-6c7d-4cbd-93a5-c74b686c2590",
+			"name": "qa_team_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "6ffbed34-c06a-4b00-80a5-8647275aaaac",
+			"name": "cockpit_apps_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "58dc842d-a092-453e-a325-118ba6f8049d",
+			"name": "cockpit_apps_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "26fce2c8-858a-47b9-ba92-2c07a73767ca",
+			"name": "github_issue_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
 			"id": "1a56d9e1-95e7-4a9b-bf18-88a1607a491b",
 			"name": "feature_testing_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "11cf098f-4a14-4c4f-949c-9888959455ef",
+			"name": "feature_testing_list_rommel",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "0335f954-1b21-4e28-b82d-e311a54cc3b1",
+			"name": "feature_testing_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
 		}
 	],
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [
 		{
-			"id": "28af660e-a229-4fa4-8298-b6be1ee2355c",
-			"description": null,
-			"name": "22-LTS Test — Feature Testing (Admin)"
-		},
-		{
 			"id": "f54a8e7b-13ab-4f44-83e8-208e23bf8af7",
 			"description": null,
 			"name": "22-LTS Test — Test Plan — Open Edition"
-		},
-		{
-			"id": "65b20767-a860-4cc2-8db5-0dbfb92c1a7f",
-			"description": null,
-			"name": "22-LTS Test — Test Strategy"
-		},
-		{
-			"id": "5c23b67f-a96c-48d1-b9e8-a13c43ab9291",
-			"description": null,
-			"name": "22-LTS Test — Re-verification"
 		},
 		{
 			"id": "f2b13639-79db-4b43-afa2-2246ea79fceb",
@@ -322,24 +307,9 @@
 			"name": "22-LTS Test — Re-verification (Admin)"
 		},
 		{
-			"id": "a1e3b3de-4095-4635-b5ea-152ab4053351",
-			"description": null,
-			"name": "22-LTS Test — QA Team"
-		},
-		{
 			"id": "e0342f81-29a1-4a08-b3af-6101fd169320",
 			"description": null,
 			"name": "22-LTS Test — Reported Issues"
-		},
-		{
-			"id": "8dea3356-1b80-4920-8ad7-9009d9a0252c",
-			"description": null,
-			"name": "22-LTS Test — Test System (SAP Edition)"
-		},
-		{
-			"id": "7d323fec-bb3d-4f8a-9f56-a439acc42e7b",
-			"description": null,
-			"name": "22-LTS Test — Bug Tracker (Open Edition)"
 		},
 		{
 			"id": "e00540f6-b2d6-4603-91e7-1d996f424a2b",
@@ -352,14 +322,24 @@
 			"name": "22-LTS Test — Feature Testing"
 		},
 		{
-			"id": "43563071-6bd0-4811-b68f-7dbeee38a544",
+			"id": "a1e3b3de-4095-4635-b5ea-152ab4053351",
 			"description": null,
-			"name": "22-LTS Test — Test System (Open Edition)"
+			"name": "22-LTS Test — QA Team"
 		},
 		{
-			"id": "507836cc-ada4-4c7a-b19c-ce8a20944520",
+			"id": "8dea3356-1b80-4920-8ad7-9009d9a0252c",
 			"description": null,
-			"name": "22-LTS Test — Issue Status"
+			"name": "22-LTS Test — Test System (SAP Edition)"
+		},
+		{
+			"id": "7d323fec-bb3d-4f8a-9f56-a439acc42e7b",
+			"description": null,
+			"name": "22-LTS Test — Bug Tracker (Open Edition)"
+		},
+		{
+			"id": "7c1bc369-ddcb-46b7-b037-5bb87acefa13",
+			"description": null,
+			"name": "22-LTS Test — Test Plan - SAP Edition"
 		},
 		{
 			"id": "66d03933-d984-4725-b3c7-5300e4e4d42c",
@@ -367,9 +347,29 @@
 			"name": "22-LTS Test — Test Matrix - SAP Edition"
 		},
 		{
-			"id": "7c1bc369-ddcb-46b7-b037-5bb87acefa13",
+			"id": "65b20767-a860-4cc2-8db5-0dbfb92c1a7f",
 			"description": null,
-			"name": "22-LTS Test — Test Plan - SAP Edition"
+			"name": "22-LTS Test — Test Strategy"
+		},
+		{
+			"id": "5c23b67f-a96c-48d1-b9e8-a13c43ab9291",
+			"description": null,
+			"name": "22-LTS Test — Re-verification"
+		},
+		{
+			"id": "507836cc-ada4-4c7a-b19c-ce8a20944520",
+			"description": null,
+			"name": "22-LTS Test — Issue Status"
+		},
+		{
+			"id": "43563071-6bd0-4811-b68f-7dbeee38a544",
+			"description": null,
+			"name": "22-LTS Test — Test System (Open Edition)"
+		},
+		{
+			"id": "28af660e-a229-4fa4-8298-b6be1ee2355c",
+			"description": null,
+			"name": "22-LTS Test — Feature Testing (Admin)"
 		},
 		{
 			"id": "22b86576-5993-4f19-96c9-592b680124d1",
@@ -378,6 +378,21 @@
 		}
 	],
 	"category": [
+		{
+			"id": "e126cabf-2791-4f76-95d8-a13a78c9b244",
+			"description": null,
+			"name": "22-LTS Test — Home"
+		},
+		{
+			"id": "98ed576e-3dfd-4d00-ad6d-5a35ada6f4f9",
+			"description": null,
+			"name": "22-LTS Test — Test Management"
+		},
+		{
+			"id": "765bbd52-1931-45b2-ab1f-01676c9b3497",
+			"description": null,
+			"name": "22-LTS Test — Links"
+		},
 		{
 			"id": "756428d7-8217-41a8-b083-7fb5282a8ae8",
 			"description": null,
@@ -392,32 +407,17 @@
 			"id": "28edc866-f447-4b12-9032-426fed776b3d",
 			"description": null,
 			"name": "Neptune DXP - Test Plan"
-		},
-		{
-			"id": "765bbd52-1931-45b2-ab1f-01676c9b3497",
-			"description": null,
-			"name": "22-LTS Test — Links"
-		},
-		{
-			"id": "98ed576e-3dfd-4d00-ad6d-5a35ada6f4f9",
-			"description": null,
-			"name": "22-LTS Test — Test Management"
-		},
-		{
-			"id": "e126cabf-2791-4f76-95d8-a13a78c9b244",
-			"description": null,
-			"name": "22-LTS Test — Home"
 		}
 	],
 	"launchpad": [
 		{
-			"id": "8a432885-b9cf-4d3e-8ddd-8cdfe666fa11",
-			"name": "Neptune-DXP-22-LTS-Test-Control-Panel",
+			"id": "b6c99549-7e9a-4a83-b204-fb1f76906420",
+			"name": "Neptune-DXP-22-LTS-Test",
 			"description": null
 		},
 		{
-			"id": "b6c99549-7e9a-4a83-b204-fb1f76906420",
-			"name": "Neptune-DXP-22-LTS-Test",
+			"id": "8a432885-b9cf-4d3e-8ddd-8cdfe666fa11",
+			"name": "Neptune-DXP-22-LTS-Test-Control-Panel",
 			"description": null
 		}
 	],
@@ -431,6 +431,16 @@
 	"wf_definition": [],
 	"connector": [
 		{
+			"id": "f57b6d9a-5fb4-4a47-989f-5e4ea8dd4dff",
+			"name": "feature_testing_conn",
+			"description": null
+		},
+		{
+			"id": "eab76d59-4906-46e3-83a1-813de261b359",
+			"name": "issue_status_conn",
+			"description": null
+		},
+		{
 			"id": "e6129223-7657-47ed-a4ad-a94d1b3e9804",
 			"name": "bug_report_conn",
 			"description": null
@@ -438,16 +448,6 @@
 		{
 			"id": "dc8021be-8f26-4cb1-b3a7-cd010b0d87e4",
 			"name": "application_list_conn",
-			"description": null
-		},
-		{
-			"id": "f57b6d9a-5fb4-4a47-989f-5e4ea8dd4dff",
-			"name": "feature_testing_conn",
-			"description": null
-		},
-		{
-			"id": "3f6dda31-f646-4833-b4b1-89c6b1565b7d",
-			"name": "github_issue_conn",
 			"description": null
 		},
 		{
@@ -461,8 +461,8 @@
 			"description": null
 		},
 		{
-			"id": "eab76d59-4906-46e3-83a1-813de261b359",
-			"name": "issue_status_conn",
+			"id": "3f6dda31-f646-4833-b4b1-89c6b1565b7d",
+			"name": "github_issue_conn",
 			"description": null
 		}
 	],

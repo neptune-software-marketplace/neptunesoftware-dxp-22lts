@@ -107,7 +107,16 @@
 			"data": []
 		}
 	],
-	"ver": "22.6.10.1439",
+	"componentInterface": {
+		"icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGQ9Ik00NDgsMTc3LjE0VjQ0OGMwLDM1LjM0NC0yOC42NTYsNjQtNjQsNjRINjRjLTM1LjM0NCwwLTY0LTI4LjY1Ni02NC02NFYxMjhjMC0zNS4zNDQsMjguNjU2LTY0LDY0LTY0aDI3MC44NDRsLTYzLjk2OSw2NA0KCUg2NHYzMjBoMzIwVjI0MS4xNTZMNDQ4LDE3Ny4xNHogTTM5OC44NzUsNDUuMjVMMzc2LjI1LDY3Ljg3NWw2Ny44NzUsNjcuODkxbDIyLjYyNS0yMi42MjVMMzk4Ljg3NSw0NS4yNXogTTQ0NC4xMjUsMEw0MjEuNSwyMi42MjUNCglsNjcuODc1LDY3Ljg5MUw1MTIsNjcuODc1TDQ0NC4xMjUsMHogTTE1MCwyOTQuMTg3bDY3Ljg3NSw2Ny44NzVMNDIxLjUsMTU4LjQwNmwtNjcuODc1LTY3Ljg5MUwxNTAsMjk0LjE4N3ogTTEyOCwzODRoNjRsLTY0LTY0DQoJVjM4NHoiLz4NCjwvc3ZnPg0K",
+		"documentation": "",
+		"containerId": null,
+		"attributes": [],
+		"topLevelObjects": [
+			"sap.ui.core.HTML"
+		]
+	},
+	"ver": "22.10.20.1618",
 	"application": "cc_signaturepad_rommel",
 	"title": "UTIL",
 	"description": "Signature Pad",
@@ -129,7 +138,7 @@
 	"ui5_theme": "sap_belize",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
 	"header": [

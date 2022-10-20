@@ -67,22 +67,16 @@
 	"roles": [],
 	"tiles": [
 		{
-			"id": "e0342f81-29a1-4a08-b3af-6101fd169320",
-			"name": "22-LTS Test — Reported Issues",
-			"title": "Reported Issues",
-			"ver": "22.6.8.1714"
-		},
-		{
 			"id": "f2b13639-79db-4b43-afa2-2246ea79fceb",
 			"name": "22-LTS Test — Re-verification (Admin)",
 			"title": "Re-verification",
 			"ver": "22.10.10.1942"
 		},
 		{
-			"id": "28af660e-a229-4fa4-8298-b6be1ee2355c",
-			"name": "22-LTS Test — Feature Testing (Admin)",
-			"title": "Feature Testing",
-			"ver": "22.10.10.1951"
+			"id": "e0342f81-29a1-4a08-b3af-6101fd169320",
+			"name": "22-LTS Test — Reported Issues",
+			"title": "Reported Issues",
+			"ver": "22.6.8.1714"
 		},
 		{
 			"id": "a1e3b3de-4095-4635-b5ea-152ab4053351",
@@ -91,16 +85,22 @@
 			"ver": "22.10.10.2110"
 		},
 		{
-			"id": "22b86576-5993-4f19-96c9-592b680124d1",
-			"name": "22-LTS Test — Neptune DXP Applications",
-			"title": "Neptune DXP Applications",
-			"ver": "22.10.10.2125"
-		},
-		{
 			"id": "507836cc-ada4-4c7a-b19c-ce8a20944520",
 			"name": "22-LTS Test — Issue Status",
 			"title": "Issue Status",
 			"ver": "22.10.11.1037"
+		},
+		{
+			"id": "28af660e-a229-4fa4-8298-b6be1ee2355c",
+			"name": "22-LTS Test — Feature Testing (Admin)",
+			"title": "Feature Testing",
+			"ver": "22.10.10.1951"
+		},
+		{
+			"id": "22b86576-5993-4f19-96c9-592b680124d1",
+			"name": "22-LTS Test — Neptune DXP Applications",
+			"title": "Neptune DXP Applications",
+			"ver": "22.10.10.2125"
 		}
 	],
 	"tilegroups": []
