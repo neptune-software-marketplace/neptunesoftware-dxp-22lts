@@ -84,11 +84,6 @@
 			"description": "List of applications in SAP and Open Edition"
 		},
 		{
-			"id": "2eb4ba05-00a6-477d-8348-415f8464c21a",
-			"name": "test_execution_status",
-			"description": null
-		},
-		{
 			"id": "ea88a5fa-a00d-45e9-90a5-2fb1047be448",
 			"name": "bug_reports_db",
 			"description": "List of reported issues from Neptune DXP Open and SAP Editions"
@@ -109,18 +104,13 @@
 			"description": "List of fixed issues that require re-verification"
 		},
 		{
-			"id": "74256354-1067-4702-842b-18d59c8a6708",
-			"name": "feature_testing_db",
+			"id": "88c77b4a-0e86-4682-bd16-aad129a5db10",
+			"name": "new_features_db",
 			"description": null
 		},
 		{
 			"id": "99dcf842-4085-4f85-a222-c3c01e72298a",
 			"name": "test_result_db",
-			"description": null
-		},
-		{
-			"id": "88c77b4a-0e86-4682-bd16-aad129a5db10",
-			"name": "new_features_db",
 			"description": null
 		},
 		{
@@ -132,6 +122,16 @@
 			"id": "14c2dc86-1e3b-4958-bf4c-557142412929",
 			"name": "github_issues_db",
 			"description": "List of fixed issues that require re-verification"
+		},
+		{
+			"id": "2eb4ba05-00a6-477d-8348-415f8464c21a",
+			"name": "test_execution_status",
+			"description": null
+		},
+		{
+			"id": "74256354-1067-4702-842b-18d59c8a6708",
+			"name": "feature_testing_db",
+			"description": null
 		}
 	],
 	"jsclass": [

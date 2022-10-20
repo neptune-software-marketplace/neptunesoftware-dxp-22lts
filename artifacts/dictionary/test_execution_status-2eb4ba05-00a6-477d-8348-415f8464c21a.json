@@ -6,7 +6,7 @@
 		{
 			"id": "44cf6b35-bad7-427f-e405-7cdf184df260",
 			"fieldName": "STATUS_ID",
-			"fieldType": "text",
+			"fieldType": "mediumtext",
 			"isUnique": true,
 			"isNullable": true
 		},
@@ -27,7 +27,7 @@
 	"foreignKeys": [],
 	"name": "test_execution_status",
 	"description": null,
-	"ver": "22.10.6.2224",
+	"ver": "22.10.20.1429",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",

@@ -48,7 +48,7 @@
 		{
 			"id": "2bee7c86-4063-407a-93e8-a5d10402b669",
 			"fieldName": "FEATURE_TEST_ID",
-			"fieldType": "text",
+			"fieldType": "mediumtext",
 			"isNullable": true,
 			"isUnique": true
 		},
@@ -63,7 +63,7 @@
 	"foreignKeys": [],
 	"name": "feature_testing_db",
 	"description": null,
-	"ver": "22.9.29.2221",
+	"ver": "22.10.20.1432",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",

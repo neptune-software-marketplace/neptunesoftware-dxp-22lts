@@ -6,7 +6,7 @@
 		{
 			"id": "1a014414-1aee-435b-c55a-de95b6d1f2cd",
 			"fieldName": "RESULT_ID",
-			"fieldType": "text",
+			"fieldType": "mediumtext",
 			"isUnique": true,
 			"isNullable": true
 		},
@@ -22,7 +22,7 @@
 	"foreignKeys": [],
 	"name": "test_result_db",
 	"description": null,
-	"ver": "22.9.28.1052",
+	"ver": "22.10.20.1433",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",
