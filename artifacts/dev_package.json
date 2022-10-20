@@ -94,11 +94,6 @@
 			"description": "List of reported issues from Neptune DXP Open and SAP Editions"
 		},
 		{
-			"id": "14c2dc86-1e3b-4958-bf4c-557142412929",
-			"name": "github_issues_db",
-			"description": "List of fixed issues that require re-verification"
-		},
-		{
 			"id": "3922a9fb-ac87-4553-9237-d5606812f993",
 			"name": "github_issue_status",
 			"description": "Github issue status"
@@ -106,16 +101,6 @@
 		{
 			"id": "12d276e2-f900-4d42-b688-e9a56e7a990b",
 			"name": "qa_team_db",
-			"description": null
-		},
-		{
-			"id": "b18c2902-b320-46e5-9dd8-dacaecddcf1a",
-			"name": "issue_type_db",
-			"description": null
-		},
-		{
-			"id": "99dcf842-4085-4f85-a222-c3c01e72298a",
-			"name": "test_result_db",
 			"description": null
 		},
 		{
@@ -129,9 +114,24 @@
 			"description": null
 		},
 		{
+			"id": "99dcf842-4085-4f85-a222-c3c01e72298a",
+			"name": "test_result_db",
+			"description": null
+		},
+		{
 			"id": "88c77b4a-0e86-4682-bd16-aad129a5db10",
 			"name": "new_features_db",
 			"description": null
+		},
+		{
+			"id": "b18c2902-b320-46e5-9dd8-dacaecddcf1a",
+			"name": "issue_type_db",
+			"description": null
+		},
+		{
+			"id": "14c2dc86-1e3b-4958-bf4c-557142412929",
+			"name": "github_issues_db",
+			"description": "List of fixed issues that require re-verification"
 		}
 	],
 	"jsclass": [
@@ -185,16 +185,16 @@
 			"application": "planet9_adaptive_list"
 		},
 		{
-			"id": "cf526867-61da-42f0-a7c8-7c52fe3af360",
-			"name": "feature_testing_edit_rommel",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
 			"id": "11cf098f-4a14-4c4f-949c-9888959455ef",
 			"name": "feature_testing_list_rommel",
 			"description": "",
 			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "cf526867-61da-42f0-a7c8-7c52fe3af360",
+			"name": "feature_testing_edit_rommel",
+			"description": "",
+			"application": "planet9_adaptive_edit"
 		},
 		{
 			"id": "9ae5b123-eceb-4ad5-b6a7-bc56ef41977c",
@@ -215,6 +215,12 @@
 			"application": "planet9_adaptive_edit"
 		},
 		{
+			"id": "90679d6c-6c7d-4cbd-93a5-c74b686c2590",
+			"name": "qa_team_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
 			"id": "96bea92d-4ccc-4003-846b-53b501db8e20",
 			"name": "qa_team_edit",
 			"description": "",
@@ -225,6 +231,12 @@
 			"name": "cockpit_apps_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "a6fd34cc-d9b3-416d-8d1b-bb8670561b45",
+			"name": "github_issue_edit_rommel",
+			"description": "",
+			"application": "planet9_adaptive_edit"
 		},
 		{
 			"id": "26fce2c8-858a-47b9-ba92-2c07a73767ca",
@@ -239,26 +251,20 @@
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "eb72cb73-4d13-4add-b84e-e11eeda164d7",
-			"name": "bug_reports_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
 			"id": "d618f737-b50c-4540-a078-754a5ae91e5e",
 			"name": "dxp_applications_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
 		},
 		{
-			"id": "e12064d2-2057-4de3-a71b-4454bd205b1d",
-			"name": "bug_reports_list",
+			"id": "eb72cb73-4d13-4add-b84e-e11eeda164d7",
+			"name": "bug_reports_edit",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "90679d6c-6c7d-4cbd-93a5-c74b686c2590",
-			"name": "qa_team_list",
+			"id": "e12064d2-2057-4de3-a71b-4454bd205b1d",
+			"name": "bug_reports_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
 		},
@@ -285,36 +291,20 @@
 			"name": "feature_testing_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "a6fd34cc-d9b3-416d-8d1b-bb8670561b45",
-			"name": "github_issue_edit_rommel",
-			"description": "",
-			"application": "planet9_adaptive_edit"
 		}
 	],
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [
 		{
-			"id": "66d03933-d984-4725-b3c7-5300e4e4d42c",
+			"id": "28af660e-a229-4fa4-8298-b6be1ee2355c",
 			"description": null,
-			"name": "22-LTS Test — Test Matrix - SAP Edition"
+			"name": "22-LTS Test — Feature Testing (Admin)"
 		},
 		{
 			"id": "f54a8e7b-13ab-4f44-83e8-208e23bf8af7",
 			"description": null,
 			"name": "22-LTS Test — Test Plan — Open Edition"
-		},
-		{
-			"id": "7c1bc369-ddcb-46b7-b037-5bb87acefa13",
-			"description": null,
-			"name": "22-LTS Test — Test Plan - SAP Edition"
-		},
-		{
-			"id": "28af660e-a229-4fa4-8298-b6be1ee2355c",
-			"description": null,
-			"name": "22-LTS Test — Feature Testing (Admin)"
 		},
 		{
 			"id": "65b20767-a860-4cc2-8db5-0dbfb92c1a7f",
@@ -335,11 +325,6 @@
 			"id": "a1e3b3de-4095-4635-b5ea-152ab4053351",
 			"description": null,
 			"name": "22-LTS Test — QA Team"
-		},
-		{
-			"id": "22b86576-5993-4f19-96c9-592b680124d1",
-			"description": null,
-			"name": "22-LTS Test — Neptune DXP Applications"
 		},
 		{
 			"id": "e0342f81-29a1-4a08-b3af-6101fd169320",
@@ -375,6 +360,21 @@
 			"id": "507836cc-ada4-4c7a-b19c-ce8a20944520",
 			"description": null,
 			"name": "22-LTS Test — Issue Status"
+		},
+		{
+			"id": "66d03933-d984-4725-b3c7-5300e4e4d42c",
+			"description": null,
+			"name": "22-LTS Test — Test Matrix - SAP Edition"
+		},
+		{
+			"id": "7c1bc369-ddcb-46b7-b037-5bb87acefa13",
+			"description": null,
+			"name": "22-LTS Test — Test Plan - SAP Edition"
+		},
+		{
+			"id": "22b86576-5993-4f19-96c9-592b680124d1",
+			"description": null,
+			"name": "22-LTS Test — Neptune DXP Applications"
 		}
 	],
 	"category": [
@@ -387,6 +387,11 @@
 			"id": "4b1b001e-edf0-4d3a-bb24-628330406d57",
 			"description": null,
 			"name": "22-LTS Test — Test Management (Control Panel)"
+		},
+		{
+			"id": "28edc866-f447-4b12-9032-426fed776b3d",
+			"description": null,
+			"name": "Neptune DXP - Test Plan"
 		},
 		{
 			"id": "765bbd52-1931-45b2-ab1f-01676c9b3497",
@@ -402,11 +407,6 @@
 			"id": "e126cabf-2791-4f76-95d8-a13a78c9b244",
 			"description": null,
 			"name": "22-LTS Test — Home"
-		},
-		{
-			"id": "28edc866-f447-4b12-9032-426fed776b3d",
-			"description": null,
-			"name": "Neptune DXP - Test Plan"
 		}
 	],
 	"launchpad": [
@@ -431,11 +431,6 @@
 	"wf_definition": [],
 	"connector": [
 		{
-			"id": "3f6dda31-f646-4833-b4b1-89c6b1565b7d",
-			"name": "github_issue_conn",
-			"description": null
-		},
-		{
 			"id": "e6129223-7657-47ed-a4ad-a94d1b3e9804",
 			"name": "bug_report_conn",
 			"description": null
@@ -448,6 +443,11 @@
 		{
 			"id": "f57b6d9a-5fb4-4a47-989f-5e4ea8dd4dff",
 			"name": "feature_testing_conn",
+			"description": null
+		},
+		{
+			"id": "3f6dda31-f646-4833-b4b1-89c6b1565b7d",
+			"name": "github_issue_conn",
 			"description": null
 		},
 		{
