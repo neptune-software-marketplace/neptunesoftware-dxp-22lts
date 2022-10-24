@@ -94,8 +94,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "22.6.7.1340",
+	"componentInterface": [],
+	"ver": "22.10.24.156",
 	"application": "test_plan",
 	"title": "Neptune DXP — Test Plan",
 	"description": "",
@@ -117,7 +117,7 @@
 	"ui5_theme": "sap_fiori_3",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": [
 		"==OBJECT STRING==",
