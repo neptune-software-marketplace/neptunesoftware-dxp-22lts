@@ -136,6 +136,11 @@
 	],
 	"jsclass": [
 		{
+			"id": "ec2feb3c-480e-4f37-b7aa-3efd273b3479",
+			"name": "adaptive",
+			"description": null
+		},
+		{
 			"id": "d44c91ff-9837-4f51-b932-f92ccfab4d25",
 			"name": "generateUUID",
 			"description": null
