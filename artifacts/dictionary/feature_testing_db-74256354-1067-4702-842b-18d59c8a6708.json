@@ -63,9 +63,9 @@
 	"foreignKeys": [],
 	"name": "feature_testing_db",
 	"description": null,
-	"ver": "22.10.20.1432",
+	"ver": "22.10.26.1127",
 	"enableAudit": false,
-	"includeDataInPackage": true,
+	"includeDataInPackage": false,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",
 	"rolesRead": [],
 	"rolesWrite": []

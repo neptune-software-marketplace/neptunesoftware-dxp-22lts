@@ -57,9 +57,9 @@
 	"foreignKeys": [],
 	"name": "github_issues_db",
 	"description": "List of fixed issues that require re-verification",
-	"ver": "22.10.20.144",
+	"ver": "22.10.26.1128",
 	"enableAudit": false,
-	"includeDataInPackage": true,
+	"includeDataInPackage": false,
 	"package": "cab27bc9-5c23-45f1-add2-e0d5fe7e95b9",
 	"rolesRead": [],
 	"rolesWrite": []
