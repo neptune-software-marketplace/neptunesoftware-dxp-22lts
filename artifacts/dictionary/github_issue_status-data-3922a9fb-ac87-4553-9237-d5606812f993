@@ -1,15 +1,5 @@
 [
 	{
-		"id": "31d9150f-c865-4798-843c-2a4f6e2f0218",
-		"createdAt": "1665143918712",
-		"updatedAt": "1665143918712",
-		"createdBy": "rommel",
-		"updatedBy": "rommel",
-		"STATUS_CODE": "5",
-		"STATUS": "Cancelled",
-		"DESCRIPTION": "The fix no longer applicable or has new behavior"
-	},
-	{
 		"id": "2527fee1-67f7-4736-b4a6-1f787cefa764",
 		"createdAt": "1654103601588",
 		"updatedAt": "1665143918712",
@@ -48,5 +38,15 @@
 		"STATUS_CODE": "4",
 		"STATUS": "Waiting for Re-Build",
 		"DESCRIPTION": "Waiting for the test system to be upgraded"
+	},
+	{
+		"id": "31d9150f-c865-4798-843c-2a4f6e2f0218",
+		"createdAt": "1665143918712",
+		"updatedAt": "1665143918712",
+		"createdBy": "rommel",
+		"updatedBy": "rommel",
+		"STATUS_CODE": "5",
+		"STATUS": "Cancelled",
+		"DESCRIPTION": "The fix no longer applicable or has new behavior"
 	}
 ]

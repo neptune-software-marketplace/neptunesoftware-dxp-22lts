@@ -45,6 +45,15 @@
 		"FEATURE_ID": 1
 	},
 	{
+		"id": "75dab44a-3215-4274-88f9-451961347564",
+		"createdAt": "1664222860933",
+		"updatedAt": "1664482967436",
+		"createdBy": "rommel",
+		"updatedBy": "rommel",
+		"FEATURE": "Others",
+		"FEATURE_ID": 100
+	},
+	{
 		"id": "478d7547-6c10-44d8-a679-461f1901ef5b",
 		"createdAt": "1664398556265",
 		"updatedAt": "1664482534810",
@@ -79,15 +88,6 @@
 		"updatedBy": "rommel",
 		"FEATURE": "Start Screen In App Designer",
 		"FEATURE_ID": 10
-	},
-	{
-		"id": "75dab44a-3215-4274-88f9-451961347564",
-		"createdAt": "1664222860933",
-		"updatedAt": "1664482967436",
-		"createdBy": "rommel",
-		"updatedBy": "rommel",
-		"FEATURE": "Others",
-		"FEATURE_ID": 100
 	},
 	{
 		"id": "2a6377e7-1686-4396-8ba5-5eef2957395f",

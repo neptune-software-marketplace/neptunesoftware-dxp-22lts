@@ -20,16 +20,6 @@
 		"DESCRIPTION": "Test is complete regardless of result"
 	},
 	{
-		"id": "de610712-7ecf-4a1a-93a2-4a10591d55b1",
-		"createdAt": "1664899512117",
-		"updatedAt": "1665088283036",
-		"createdBy": "rommel",
-		"updatedBy": "rommel",
-		"STATUS_ID": "4",
-		"STATUS": "Cancelled",
-		"DESCRIPTION": "Functionality has been removed"
-	},
-	{
 		"id": "73eba572-6e44-4607-9551-0ad11ca5018b",
 		"createdAt": "1654807851628",
 		"updatedAt": "1665406135318",
@@ -38,6 +28,16 @@
 		"STATUS_ID": "1",
 		"STATUS": "Waiting for Testing",
 		"DESCRIPTION": "Available in the test system and ready for testing"
+	},
+	{
+		"id": "de610712-7ecf-4a1a-93a2-4a10591d55b1",
+		"createdAt": "1664899512117",
+		"updatedAt": "1665088283036",
+		"createdBy": "rommel",
+		"updatedBy": "rommel",
+		"STATUS_ID": "4",
+		"STATUS": "Cancelled",
+		"DESCRIPTION": "Functionality has been removed"
 	},
 	{
 		"id": "7fdfdf46-857a-4ead-9995-71df4f0407a5",
