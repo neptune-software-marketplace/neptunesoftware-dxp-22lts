@@ -34,7 +34,7 @@
 						{
 							"attribute": "showFooter",
 							"grouping": "Properties",
-							"value": "true",
+							"value": "false",
 							"script": "",
 							"translation": []
 						}
@@ -95,7 +95,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "22.10.31.1257",
+	"ver": "22.10.31.1325",
 	"application": "test_plan",
 	"title": "Neptune DXP — Test Plan",
 	"description": "",
