@@ -9,7 +9,7 @@
 	},
 	"name": "22-LTS Test",
 	"description": null,
-	"ver": "22.10.11.1959",
+	"ver": "22.10.31.940",
 	"enableCICD": true,
 	"apps": [
 		{
